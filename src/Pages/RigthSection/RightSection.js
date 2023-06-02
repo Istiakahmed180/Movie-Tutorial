@@ -58,7 +58,7 @@ const RightSection = ({ movie }) => {
   };
 
   return (
-    <div style={{ marginTop: "66px" }} className="sticky-top mt-5">
+    <div style={{ marginTop: "66px" }} className="sticky-top mb-5">
       <div className="row justify-content-center align-items-center mb-4">
         <div className="col-md-6">
           <img src={image?.original} className="w-100 rounded" alt="" />
