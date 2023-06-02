@@ -9,6 +9,7 @@ const RightSection = ({ movie }) => {
     phone: "",
     address: "",
   });
+  console.log(movie);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   const {
